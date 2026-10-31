@@ -1,7 +1,7 @@
 # Core (needed by both the notebook and the Streamlit app)
 pandas>=2.0
-numpy>=1.24
-scikit-learn>=1.3
+numpy>=2.0
+scikit-learn>=1.6.1
 joblib>=1.3
 
 # Streamlit app
