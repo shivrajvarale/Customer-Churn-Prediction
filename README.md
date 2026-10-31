@@ -2,7 +2,7 @@
 
 Predicting which telecom customers are likely to leave, so a retention team can reach out *before* they go.
 
-**Live demo:** [https://YOUR-APP-NAME.streamlit.app](https://customer-churn-prediction-38.streamlit.app/)
+**Live demo:** [Customer Churn Prediction](https://customer-churn-prediction-38.streamlit.app/)
 
 Built on the IBM Telco Customer Churn dataset (7,043 customers, 21 columns). The notebook covers the full workflow: cleaning, EDA, feature encoding, model comparison, tuning, threshold selection, and saving a deployable model.
 
