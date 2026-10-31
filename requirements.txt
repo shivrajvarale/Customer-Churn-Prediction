@@ -1,0 +1,19 @@
+# Core (needed by both the notebook and the Streamlit app)
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+joblib>=1.3
+
+# Streamlit app
+streamlit>=1.30
+
+# Notebook only (EDA, plots, XGBoost comparison)
+matplotlib>=3.7
+seaborn>=0.12
+xgboost>=2.0
+jupyter>=1.0
+
+# NOTE: churn_model.pkl and scaler.pkl are scikit-learn pickles. Load them with
+# the same scikit-learn version that saved them (run `import sklearn;
+# print(sklearn.__version__)` in your Colab notebook), and pin it here, e.g.
+# scikit-learn==1.6.1
